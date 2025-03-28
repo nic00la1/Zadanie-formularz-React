@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Comp from './Comp';
+import './App.css';
+
 
 const App = () => {
   const [nick, setNick] = useState('');
